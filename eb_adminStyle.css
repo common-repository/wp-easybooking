@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+input[type='text']{width:99%;font-size:16px;color:#333;}
+h2, h3{color:#595961;/*text-shadow: 0.01em 0.05em 0.2em #ccc;*/font-family: sans-serif;}
+
+table.eb_class{font-size: 50px;}
+
+a.littleEditBtns{width:100px;font-size:9px;border:1px solid #dfdfdf;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;padding:3px;-moz-box-shadow: 0 1px 1px #fff inset;-webkit-box-shadow: 0 1px 1px #fff inset;box-shadow:  0 1px 1px #fff inset;}
+a.littleEditBtns:hover{cursor: pointer;}
+a.littleCloseBtns{font-size:9px;font-family:verdana;border:1px solid #666;font-weight:bold;color:#999;-webkit-border-radius: 35px;-moz-border-radius: 35px;border-radius: 35px;padding:5px;padding-bottom:3px;padding-top:3px;}
+a.littleCloseBtns:hover{cursor: pointer;color:#d54e21; border-color:#d54e21;}
+div.editLocationArea{border:1px solid #dfdfdf;padding:2px;background-color:#f8f8f8;}
+div.userLine:hover{cursor: pointer;text-decoration: underline;}
+a.littleDelBtnsTrans{background-color:#dfdfdf; color:#999; text-decoration:none;font-size:9px;font-family:verdana;border:1px solid #999;font-weight:bold;-webkit-border-radius: 35px;-moz-border-radius: 35px;border-radius: 35px;padding:5px;padding-bottom:3px;padding-top:3px;opacity: 0.5;}
+a.littleDelBtnsTrans:hover{ cursor: pointer;color:#666;opacity: 0.7;box-shadow: rgba(0,0,0,0.4) 1px 1px 1px 1px;}
+a.littleRoomDelBtnsTrans{background-color:#fff; color:#999; text-decoration:none;font-size:12px;font-family:verdana;border:1px solid #999;font-weight:bold;-webkit-border-radius: 35px;-moz-border-radius: 35px;border-radius: 35px;padding:5px;padding-bottom:3px;padding-top:3px;opacity: 0.5;}
+a.littleRoomDelBtnsTrans:hover{ cursor: pointer;color:#666;opacity: 0.7;box-shadow: rgba(0,0,0,0.4) 0.5px 0.5px 0.5px 0.5px;}
+
+div.eb_success{background-color: #ebf8a4;color: #999; -moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;-moz-box-shadow: 0 1px 1px #fff inset;-webkit-box-shadow: 0 1px 1px #fff inset;box-shadow:  0 1px 1px #fff inset;border:1px solid;background-position: 99% 50%;padding:10px 10px 10px 10px;  }
+div.imgHolderTitleDiv{font-size:14px;color:#999;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;-moz-box-shadow: 0 1px 1px #fff inset;-webkit-box-shadow: 0 1px 1px #fff inset;box-shadow:  0 1px 1px #fff inset;border:1px solid #dfdfdf;padding:10px 10px 10px 10px;}
+
+div.eb_inputArea{padding:2px;background-color:#f8f8f8;border:1px solid #dfdfdf;/*background: -moz-linear-gradient(top, #ececec, #fff);*/-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+div.imageAreaDiv{display: none;}
+
+div.eb_simpleContainer, td.eb_simpleContainer, td.eb_simpleContainerV{
+	color: #666;
+	padding: 10px;
+	border: 1px solid #ccc;	
+	background: #999; /* for non-css3 browsers */
+	background-image: -o-linear-gradient(rgb(236,236,236),rgb(255,255,255));/*for opera*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ececec', endColorstr='#ffffff'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ececec), to(#fff)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #ececec,  #fff); /* for firefox 3.6+ */ 
+	border:1px solid #dfdfdf;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;-moz-box-shadow: 0 1px 1px #fff inset;-webkit-box-shadow: 0 1px 1px #fff inset;box-shadow:  0 1px 1px #fff inset;
+}
+span.eb_simpleContainerNoBack{
+color: #666;
+	padding: 5px;
+	border: 1px solid #ccc;	 
+	border:1px solid #dfdfdf;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;-moz-box-shadow: 0 1px 1px #fff inset;-webkit-box-shadow: 0 1px 1px #fff inset;box-shadow:  0 1px 1px #fff inset;	
+}
+div.eb_simpleContainer h3{color: #666;}
+
+div.plainBox{
+	font-weight: bold;
+	padding: 10px;	
+	border:1px solid #dfdfdf !important;
+	-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;-moz-box-shadow: 0 1px 1px #fff inset;-webkit-box-shadow: 0 1px 1px #fff inset;box-shadow:  0 1px 1px #fff inset;
+}
+
+.facility-ico-selector{
+	width:100px;	
+	border:1px solid #ccc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-image: -o-linear-gradient(rgb(236,236,236),rgb(255,255,255));/*for opera*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ececec', endColorstr='#ffffff'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ececec), to(#fff)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #ececec,  #fff); /* for firefox 3.6+ */
+}
+/*==================================*/
+/*===========FOR BOOK IT NOW===========*/
+.bookItNowContainer{
+	/*position: fixed;
+	top: 100px;
+	left: 160px;
+	width: 84%;*/
+	padding: 5px;
+	border: 1px solid #ccc;	
+	background: #fff; /* for non-css3 browsers */
+	background-image: -o-linear-gradient(rgb(236,236,236),rgb(255,255,255));/*for opera*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ececec', endColorstr='#ffffff'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ececec), to(#fff)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #ececec,  #fff); /* for firefox 3.6+ */ 
+	border:1px solid #dfdfdf;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;padding:3px;-moz-box-shadow: 0 1px 1px #fff inset;-webkit-box-shadow: 0 1px 1px #fff inset;box-shadow:  0 1px 1px #fff inset;
+	opacity: 0.95;
+	z-index: 3;
+	/*display: none;*/
+}
+
+
+/*==================================*/
+/*===========FOR CALENDAR===========*/
+.eb_dateRangeArea{
+	background: #fafafa; /* for non-css3 browsers */
+	background-image: -o-linear-gradient(rgb(236,236,236),rgb(255,255,255));/*for opera*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#ffffff'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#fff)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #fafafa,  #fff); /* for firefox 3.6+ */
+}
+.eb_calendarMainContainer{
+	position: absolute;
+	left: 0;bottom: 0;
+	display: none;
+}
+.eb_bookingCalendar{
+	position: absolute;
+	width: 395px;
+	padding: 5px;
+	border: 1px solid #ccc;	
+	background: #999; /* for non-css3 browsers */
+	background-image: -o-linear-gradient(rgb(236,236,236),rgb(255,255,255));/*for opera*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ececec', endColorstr='#ffffff'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ececec), to(#fff)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #ececec,  #fff); /* for firefox 3.6+ */ 
+	border:1px solid #dfdfdf;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;padding:3px;-moz-box-shadow: 0 1px 1px #fff inset;-webkit-box-shadow: 0 1px 1px #fff inset;box-shadow:  0 1px 1px #fff inset;
+	opacity: 0.95;
+}
+
+.eb_calendarMonthTitle{
+	border:1px solid #dfdfdf;
+	-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;padding:3px;
+	-moz-box-shadow: 0 1px 1px #fff inset;-webkit-box-shadow: 0 1px 1px #fff inset;box-shadow:  0 1px 1px #fff inset;
+}
+	
+.eb_slide {
+	position: relative;
+	overflow: hidden;
+}
+.eb_slide .eb_inner {
+  	position: absolute;
+  	left: 0;
+  	bottom: 0;
+	text-align: center;
+	padding:3px;
+}
+.eb_calendarNav{	color:#dfdfdf;width:25px;font-size:12px;font-family:verdana, tahoma,san serif;border:1px solid #dfdfdf;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;padding:3px;-moz-box-shadow: 0 1px 1px #fff inset;-webkit-box-shadow: 0 1px 1px #fff inset;box-shadow:  0 1px 1px #fff inset;}
+.eb_calendarNav:hover{cursor: pointer;color:#999;box-shadow: rgba(0,0,0,0.1) 0.3px 0.3px 0.3px 0.3px;}
+
+.eb_invalidDateForItem{
+	color: #999; font-style: italic; text-decoration: line-through;
+}
+
+.eb_calendarIsToday{
+	background: lightgrey;
+	border:1px solid #dfdfdf;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;padding:3px;-moz-box-shadow: 0 1px 1px #fff inset;-webkit-box-shadow: 0 1px 1px #fff inset;box-shadow:  0 1px 1px #fff inset;
+	font-weight: bold;
+}	
+.eb_calendarIsToday:hover{
+	cursor: pointer;
+	color: #ccc;
+	text-shadow: -1px -1px white, 1px 1px #333;
+}
+
+.eb_validDateForItem{
+	border:none;
+	padding:3px;
+}
+.eb_validDateForItem:hover{
+	padding:1px;
+	border:1px solid #dfdfdf;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;-moz-box-shadow: 0 1px 1px #fff inset;-webkit-box-shadow: 0 1px 1px #fff inset;box-shadow:  0 1px 1px #fff inset;
+	cursor: pointer;
+}
+
+.eb_selectedDate{
+	padding:3px;
+	background: lightblue;
+	border:1px solid #dfdfdf;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;-moz-box-shadow: 0 1px 1px #fff inset;-webkit-box-shadow: 0 1px 1px #fff inset;box-shadow:  0 1px 1px #fff inset; 	
+}
+.eb_selectedDate:hover{cursor: pointer; border-color: lightblue;}
+
+.eb_selectedDateLimit{
+	padding:3px;
+	background: lightblue;
+	border:1px solid #dfdfdf;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;-moz-box-shadow: 0 1px 1px #fff inset;-webkit-box-shadow: 0 1px 1px #fff inset;box-shadow:  0 1px 1px #fff inset;
+	color: #fff;
+	font-style: italic; 	
+}
+.show_down_area{
+	/*position: absolute;*/
+	padding-left: 10px;
+	padding-right: 10px;
+	/*margin-top: 20px;*/
+	border:1px solid #dfdfdf;
+	-webkit-border-bottom-left-radius: 10px;-moz-border-bottom-left-radius: 10px;border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;-moz-border-bottom-right-radius: 10px;border-bottom-right-radius: 10px;
+	-moz-box-shadow: 2px 2px 10px #ccc;-webkit-box-shadow: 2px 2px 10px #ccc;box-shadow: 2px 2px 10px #ccc;
+	border-top: 0px;
+	position: relative;
+	top: -1px;
+}
+a:hover{cursor: pointer;}
+
+.monthsAvailPalette{display:none;position:fixed;z-index:3;left:11%;top:15%;background-color:#333;
+background: #999; /* for non-css3 browsers */
+background-image: -o-linear-gradient(rgb(236,236,236),rgb(255,255,255));/*for opera*/
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ececec', endColorstr='#fefefe'); /* for IE */
+background: -webkit-gradient(linear, left top, left bottom, from(#ececec), to(#fefefe)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #ececec,  #fefefe); /* for firefox 3.6+ */
+width:80%;padding:10px;
+border:1px solid #dfdfdf;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;-moz-box-shadow: 0 1px 1px #fff inset;-webkit-box-shadow: 0 1px 1px #fff inset;box-shadow:  0 1px 1px #fff inset;
+
+}
+
+#dataTableTrHov tbody tr:hover{background-color: #d9e4ea;}
+#billingDataTable tr:hover{background-color: #d9e4ea;}
+
+/*==================================*/
+/*==================================*/
+span.rotateText{
+	
+	-moz-transform:rotate(-90deg); 
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	/*filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);*/
+	writing-mode: tb-rl;
+}

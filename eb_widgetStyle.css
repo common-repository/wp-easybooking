@@ -1,0 +1,560 @@
+@charset "utf-8";
+/* CSS Document */
+
+.easy-booking-search-form-container{border:solid 1px #48f;width: 100%;}
+form.easy-booking-search-form{width: 100%;}
+.eb-frm-search-text-box{
+	width: 95%;
+}
+
+.easy-booking-search-items-area{padding: 5px;color: #666;}
+.easy-booking-search-items-area select{color: #666;}
+
+.easy-booking-form-title{
+	/*position: relative;
+	top: 5px;*/
+	background-color: #48f;
+	border:none;
+	color: #fff;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+	width: auto;
+	text-align: center;
+}
+
+
+
+
+
+/****************************************************************************************************************/
+/****************************************************************************************************************/
+/*form#eb-search-location-form{border:solid 1px #48f;width: 100%;}*/
+
+
+/*=================================================*/
+/*================= Search Form ===================*/
+/*input[type=search] {
+	color: #47acdf;
+	cursor: pointer;
+	display: block;
+	width: 90%;
+	letter-spacing: 2px;		
+	font-weight: bold;
+}
+
+input[type=text] {
+	color: #47acdf;
+	cursor: pointer;
+	display: block;
+	width: 50%;
+	background-color: #fff;	
+}
+
+input[type=email] {
+	color: #47acdf;
+	cursor: pointer;
+	width: 50%;
+}*/
+
+input::-webkit-input-placeholder {
+    color:    #999;
+}
+input:-moz-placeholder {
+    color:    #999;
+}
+a.littleEditBtns{width:100px;font-size:9px;border:1px solid #dfdfdf;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;padding:3px;-moz-box-shadow: 0 1px 1px #fff inset;-webkit-box-shadow: 0 1px 1px #fff inset;box-shadow:  0 1px 1px #fff inset;}
+
+a.littleCloseBtns{font-size:9px;text-shadow:0 1px 0 #9ab4e5;color:#1e62de;border:1px solid #1e62de;border:1px solid #1e62de;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;padding:3px; margin-top: 2px;}
+
+a.littleEditBtns :hover, a.littleCloseBtns:hover{cursor: pointer;}
+
+a.hoveredLink{}
+a.hoveredLink:hover{cursor:pointer;text-decoration: none; }
+
+/*p.fromDate-par{margin-top:60px;}*/
+
+div.eb_search-location-in-main-page{
+	width:100%;
+}
+
+div.eb_search-location-in-main-page .general-title{
+	width:100%;
+	background-color: #48f;
+	border:none;
+	color: #fff;
+	padding-left: 10px;
+}
+
+.location-suggestions{text-shadow:0 1px 0 #9ab4e5;color:#1e62de;font-size:14px;}
+div.eb_search-location-in-main-page a:hover{cursor: pointer;}
+
+
+div.eb_search-location-in-main-page h3{text-transform:none;font-size:12px;text-shadow:0 1px 0 #9ab4e5;font-weight: bold;color: red;}
+h3.search-type-title{font-weight: bold;color: #f19c06; text-decoration: underline;}
+
+div.eb_search-location-in-main-page .location-search-text{width: 100%}
+
+/*.eb-search-button{color: #fff; background-color: #47acdf}*/
+.eb-search-button {
+    cursor:pointer; 
+    height: 31px; 
+    font-weight: bold;
+    color: #fff;  
+    background-color: #528ae7;
+    border: 1px solid #3079ED; 
+    -moz-border-radius: 2px; 
+    -webkit-border-radius: 2px; 
+}
+/* Style the search button hover state */
+.eb-search-button:hover {
+    border: 1px solid #2F5BB7;
+    background-color: #3d81ef;
+}
+
+.little{
+ font-size: 11px;
+ cursor: pointer;	
+}
+
+.more-link{
+	color: #f19c06;
+	cursor: pointer;
+}
+
+
+div.eb_column{float: left;
+padding: 10px;
+}
+div.eb_column_img {float: left;
+}
+div.eb_clear {
+width: 100%;
+clear: both;
+}
+
+div.navigation{
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+
+/*===========================================================*/
+/*====================== GO TO BOOKING ======================*/
+.eb-form-sep{width: 95%;border-bottom: solid 1px #f19c06; line-height: 1px; height: 1px; margin: 5px;}
+.go-to-booking-title{color:#f19c06;padding: 5px; width: auto; text-align: center;margin-left: 5px;}
+.go-to-booking-title:hover{cursor: pointer;}
+div.go-to-booking{display:none;padding: 5px;color: #666;}
+div.go-to-booking input{width: 150px;padding: 5px;}
+div.go-to-booking input[type=password]{width: 60px;}
+
+/*===========================================================*/
+/* ================= Result display options =================*/
+div.resultDisplayOptionsDiv{width:100%; padding:10px;}
+div.resultDisplayOptionsDiv #eb_currency{float:right;}
+.optionBtn, .optionBtnSelected{
+    cursor:pointer; 
+    height: 31px; 
+    padding:6px;
+    font-weight: bold;
+    color: #fff;  
+    background-color: #528ae7;
+    border: 1px solid #3079ED; 
+    -moz-border-radius: 2px; 
+    -webkit-border-radius: 2px; 
+}
+/* Style the search button hover state */
+.optionBtn:hover {
+    border: 1px solid #2F5BB7;
+    background-color: #3d81ef;
+}
+
+.optionBtnSelected{
+	color: #2156ae;
+}
+.optionBtnSelected:hover{
+	text-decoration: none;
+}
+
+.resort-counter-area{
+	font-size: 16px;
+	color: #999999;
+}
+
+.results-searchdata-details-metatitle{
+	width:100%;
+	background-color: #F5FAFA;
+	/*border:none;*/
+	border: 1px solid #ACD1E9;
+	color: #6D929B;
+	padding-left: 10px;
+	font-size: 11px;
+}
+
+.resort-title-at-results-page{
+	padding: 0px;
+	margin: 0px;
+}
+
+.resort-title-at-results-page a{
+	padding: 0px;
+	margin: 0px;
+}
+
+.resort-location-at-results-page{	
+	color: #666;
+	font-size: 12px;
+}
+
+.resort-description-at-results-page{
+	font-size:14px;
+	text-align: justify;
+	color: #333;
+}
+
+.resort-availableTitles-at-results-page{
+	border:none;
+	color: #48f;
+	font-size:12px;	
+	padding:0px;
+	line-height:10px;
+}
+.resort-roomTitles-at-results-page{
+	border-color: #fff0c4;
+	color: #48f;
+	font-size:12px;	
+	padding:0px;
+	line-height:10px;
+	font-weight: bold;
+}
+.resort-roomOptions-at-results-page{
+	border-color: #fff0c4;
+	color: #48f;
+	font-size:12px;	
+	padding:0px;
+	line-height:10px;
+}
+.resort-roomsPrices-at-results-page{
+	border-color: #fff0c4;
+	color: #48f;
+	font-size:12px;	
+	padding:0px;
+	line-height:10px;
+	font-weight: bold;
+}
+/*====================================================*/
+/* ================= Resort Page ================= */
+h2.resort-title{ color: #528ae7; }
+
+div.resort-view-details{float:left;}
+
+div.mainImageContainer{width: 97%;text-align: center;vertical-align:middle;/*border :1px solid #2F5BB7;*/}
+
+div#change-booking-dates-area{ background-color: #528ae7; color: #fff; line-height: 20px; vertical-align: middle; padding:0 5px 0 5px; font-size: 12px;}
+div#change-booking-dates-area table, div#change-booking-dates-area tr, div#change-booking-dates-area td{vertical-align: middle;}
+
+span.change-dates-title{font-size: 14px;font-weight: bold;}
+
+a.link-button:hover{cursor: pointer;}
+
+
+/*================TABS======================*/
+
+div.resort-tab-options{ width: 100%; float: none; }
+ol.resort-tab-container{ height: 2em;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+ol.resort-tab-container li{ background: #b1d1f2 url(tabs.gif);
+    float: left;
+    margin: 0 1px 0 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#fff;
+    }
+    
+ol.resort-tab-container li:hover {
+    background-color: #48f;
+    background-position: 0 -60px;
+    cursor:pointer;
+    color: #fff;
+}
+
+ol.resort-tab-container li.active {
+    background-color: #48f;
+    background-position: 0 -60px;
+    cursor:pointer;
+    color: #fff;
+    font-weight: bold;
+}
+
+div.resort-data-area{
+	border:1px solid #48f;	
+	margin-top: -6px;
+}
+
+div.resort-data-area table thead{
+	 background-color: #48f;
+	 border:none;
+	 color: #fff;
+	 padding: 0px;
+}
+
+div.business-mains-logo-area{
+	height: 100px;
+	padding-left:10px;
+	-webkit-box-shadow: inset 0 2px 40px #666), inset 0 0px 0 rgba(255,255,255,.5), inset 0 0px 0 rgba(0,0,0,.4);
+	-moz-box-shadow: inset 0 2px 40px #666, inset 0 0px 0 rgba(255,255,255,.5), inset 0 0px 0 rgba(0,0,0,.4);
+	box-shadow: inset 0 2px 15px #666, inset 0 0px 0 rgba(255,255,255,.5), inset 0 0px 0 rgba(0,0,0,.4);	
+	
+	background-size:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	vertical-align: middle;
+	padding-top: 30px;
+	
+	text-shadow: #000 1px 1px 8px;
+}
+
+div.business-img-item{
+	height: 50px;
+	width: 70px;
+	background-size:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+
+div.room-title-area{
+	height: 60px;
+	padding-left:10px;
+	-webkit-box-shadow: inset 0 2px 40px #666), inset 0 0px 0 rgba(255,255,255,.5), inset 0 0px 0 rgba(0,0,0,.4);
+	-moz-box-shadow: inset 0 2px 40px #666, inset 0 0px 0 rgba(255,255,255,.5), inset 0 0px 0 rgba(0,0,0,.4);
+	box-shadow: inset 0 2px 15px #666, inset 0 0px 0 rgba(255,255,255,.5), inset 0 0px 0 rgba(0,0,0,.4);	
+	
+	background-size:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	vertical-align: middle;
+	padding-top: 30px;
+	
+	text-shadow: #000 1px 1px 8px;
+}
+div.room-title-area:hover{
+	-webkit-box-shadow: inset 0 2px 40px #fff), inset 0 0px 0 rgba(255,255,255,.5), inset 0 0px 0 rgba(0,0,0,.4);
+	-moz-box-shadow: inset 0 2px 40px #fff, inset 0 0px 0 rgba(255,255,255,.5), inset 0 0px 0 rgba(0,0,0,.4);
+	box-shadow: inset 0 2px 15px #fff, inset 0 0px 0 rgba(255,255,255,.5), inset 0 0px 0 #fff;
+	text-shadow: #000 1px 1px 5px;
+}
+a.room-details-btn{color:#fff;}
+a.room-details-btn:hover{ cursor: pointer;text-decoration: underline;}
+
+div.room-details-container{border:1px solid #efefef; color:#666;margin: 5px; padding:2px;font-size: 12px;}
+
+span.room-details-label{color:#efefef; font-size:11px;}
+
+
+/*====================================================*/
+/*================== Booking Page ====================*/
+div.vsep{clear:both;line-height: 10px;}
+div.booking-page-general-header{clear:both; width: 100%;}
+div.booking-data{color: #48f;}
+div#booking-content{
+	/*padding: 10px 10px 10px 10px;*/
+	font-size: 14px;
+}
+
+.general-title{
+	width:auto;
+	background-color: #48f;
+	border:none;
+	color: #fff;
+	padding-left: 10px;
+}
+
+div.booking-page-general-header .general-title , .terms-area .general-title{
+	width:100%;
+	background-color: #48f;
+	border:none;
+	color: #fff;
+	padding-left: 10px;
+}
+
+.general-title em{
+	font-size: 12px;
+}
+.general-title .bigger-font{ font-size: 16px;}
+div.booking-page-general-header .resort-image-title{
+	margin-top: 5px;
+	float:left;
+	width:200px;
+	height: 55px;
+	background-size:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	vertical-align: middle;
+	padding: 30px 0 30px 0px;
+	text-align: center;
+	text-shadow: #000 1px 1px 8px;
+	
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	}
+	
+div.booking-data .general-title{
+	background-color: #48f;
+	border:none;
+	color: #fff;
+	padding-left: 10px;
+}
+	
+.sub-container{
+	padding-left: 20px;
+	background-color: #d4e3fe;	
+	color: #666;
+}	
+
+div.resort-title{
+	color: #fff;
+	font-size: 16px;
+	text-shadow: #000 1px 1px 8px;
+	
+}
+
+div.user-details{
+	font-size: 14px;
+	color: #48f;
+}
+div.room-pre-container{
+	background-color:#fff;
+	padding-bottom:10px;
+}
+div.room-container{
+	width: 100%;
+	/*padding-left: 25px;*/
+	/*border: 1px solid red;*/
+	margin: 10px 20px 0 10px;
+	padding : 0px 0px 0px 20px;
+	border-left: 3px solid #f19c06;	
+}
+div.room-title{
+	width: 100%;
+	/*margin-left:20px;
+	background-color: #48f;*/
+	color: #48f;
+	font-size: 14px;
+	/*border: 1px solid green;*/
+}
+/*div.room-title span.info{
+	padding: 5px;
+	color: #f19c06;
+	font-size: 11px;
+}
+div.room-title span.info:hover{
+	cursor: pointer;
+}*/
+
+div.room-capacity-area{
+	color: #48f;
+	font-size: 12px;
+	padding-top:2px;
+}
+div.room-capacity-area select{
+	color: #48f;
+	font-size: 12px;
+	
+}
+div.room-price-area{
+	color: #f19c06;
+	font-size: 12px;
+}
+
+div.bank-clarification-code-wrapper{
+	
+	margin: 10px 20px 0 0; 
+}
+div.bank-clarification-code-container{
+	background-color: #fff;
+	color: #f19c06;
+	padding-left: 10px;
+	border: 1px solid #a1bef4; 
+}
+
+.simple-warning{
+	margin: 5px;
+	font-style: italic;
+	color: #9F6000;
+	background-color: #FEEFB3;
+ 	border:1px solid #9F6000;
+ 	-webkit-border-radius: 15px;
+ 	-moz-border-radius: 15px;
+ 	border-radius: 15px;
+ 	padding:3px;
+ 	-moz-box-shadow: 0 1px 1px #fff inset;
+ 	-webkit-box-shadow: 0 1px 1px #fff inset;
+ 	box-shadow:  0 1px 1px #fff inset;
+}
+
+div.orangeMsg{
+	color: #f19c06;
+}
+.redWarningMsg{
+	color: #fe2e2e;
+}
+
+#business-currency-price{font-size: 12px;}
+span.resort-location-data{font-size: 11px;}
+
+.explain-required{color:#f19c06;font-size:12px;}
+
+div.input-error{color: #666;border:1px solid #ff9494; width: 217.5px; background: #ffa8a8;display:none; padding-left: 5px; font-size: 12px;}
+
+/*===========FOR DISABLED INPUTS==============*/
+input[disabled="disabled"], input.disabled{
+	background-color: #ddd;
+	border-color: #fff;
+}
+input[disabled="disabled"]:hover, input.disabled:hover{
+	background-color: #ddd;
+	cursor: default;
+	border-color: #fff;
+}
+
+
+/*=========TERMS AREA===========*/
+.terms-area{
+	display: none;
+	color: #666;
+	width: 100%;
+	height:200px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	font-size:11px;
+	border:1px solid #ddd;
+}
+.terms-area ul{ padding-left: 20px; }
+
+/*====================================================*/
+/* ================= Tiny Scrollbar ================= */
+.scrollDataDiv { width: 100%; margin: 20px 0 10px;}
+.scrollDataDiv .viewport { width: 570px; height: 100px; overflow: hidden; position: relative; }
+.scrollDataDiv .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; }
+.scrollDataDiv .scrollbar{ background: transparent url(images/scrollbarImgs/bg-scrollbar-track-y.png) no-repeat 0 0; position: relative; background-position: 0 0; float: right; width: 15px; }
+.scrollDataDiv .track { background: transparent url(images/scrollbarImgs/bg-scrollbar-trackend-y.png) no-repeat 0 100%; height: 100%; width:13px; position: relative; padding: 0 1px; }
+.scrollDataDiv .thumb { background: transparent url(images/scrollbarImgs/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; height: 20px; width: 25px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: -9px; }
+.scrollDataDiv .thumb .end { background: transparent url(images/scrollbarImgs/bg-scrollbar-thumb-y.png) no-repeat 50% 0; overflow: hidden; height: 5px; width: 25px; }
+.scrollDataDiv .disable { display: none; }
+
+/*====================================================*/
+/* ================= Unorganized ================= */
+.first-letter-capital{
+	/*text-transform:capitalize;*/
+}
+.first-letter-capital:first-letter {
+	text-transform:uppercase;
+}
+
+.organizing-element-title{
+	color: #999;
+}
